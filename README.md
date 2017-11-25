@@ -29,3 +29,10 @@ Some UnityShader
 然后与原物体正常光照的颜色合在一起。
 
 ![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Transparency.gif)
+
+## 冻结效果（Ice）
+
+通过法线与噪声贴图对顶点进行外扩（需要用到Vertex Texture Fetch）,
+对Fresnel效果进行调整渲染出一个大概冰的效果
+
+![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Ice.gif)
