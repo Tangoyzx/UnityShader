@@ -36,3 +36,15 @@ Some UnityShader
 对Fresnel效果进行调整渲染出一个大概冰的效果
 
 ![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Ice.gif)
+
+## 基于贴花的阴影
+
+使用CommandBuffer渲染局部ShadowMap以及使用贴花的形式把阴影渲染在屏幕上。
+[文章在此](https://tangoyzx.github.io/2017/12/23/commandbuffer-decal-shadow.html "go to blog")
+![](http://tangoyzx.github.io/images/posts/post_5.gif)
+
+## 基于顶点动画的鱼
+
+有人推荐了一下[GDC2017的一个演讲](https://www.bilibili.com/video/av14910105/?t=377 "go to bilibili")，感觉很有意思，把鱼那个效果（5:00左右讲到）实现了一下。但是不知道是我的鱼的模型太长还是动画混合的方式不对，总觉得有点点违和。
+
+![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Fish.gif)

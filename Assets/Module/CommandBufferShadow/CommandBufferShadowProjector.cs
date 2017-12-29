@@ -173,7 +173,7 @@ public class CommandBufferShadowProjector : MonoBehaviour {
 		}
 
 		// 稍微加长一点
-		var offset = 0.0f;
+		var offset = 1.0f;
 		var zStart = center.z - size.z * 0.5f;
 		size.z = Mathf.Min(size.z + offset, 20);
 		center.z = zStart + size.z * 0.5f;

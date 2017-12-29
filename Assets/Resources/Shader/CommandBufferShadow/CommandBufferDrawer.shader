@@ -81,7 +81,7 @@ Shader "CommandBufferShadow/CommandBufferShadowDrawer"
 				float shadowTexDepth = 1 - tex2D(_ShadowTex, shadowUV);
 				// return tex2D(_ShadowTex, shadowUV);
 				
-				float inShadow = step(shadowTexDepth, shadowDepth - 0.03);
+				float inShadow = step(shadowTexDepth, shadowDepth - 0.5);
 
 				return float4(0, 0, 0, inShadow * 0.5);
 				// return float4(shadowTexDepth, 0, 0, 0.5);
