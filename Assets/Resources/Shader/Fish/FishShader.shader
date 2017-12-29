@@ -63,8 +63,8 @@
 				
 				float zWeight = saturate((_Block.x * 0.1 - v.vertex.z) * _Block.y);
 
-				float zWeight1 = 1 - 0.75 * zWeight;
-				float zWeight2 = zWeight * 0.25;
+				float zWeight1 = 0.25;
+				float zWeight2 = 0.25 * zWeight;
 
 				offset.x += sin(_Time.y * (_Period.x) + a + _Offset.x) * _Weight.x * 0.1 * zWeight1;
 
