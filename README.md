@@ -48,3 +48,11 @@ Some UnityShader
 有人推荐了一下[GDC2017的一个演讲](https://www.bilibili.com/video/av14910105/?t=377 "go to bilibili")，感觉很有意思，把鱼那个效果（5:00左右讲到）实现了一下。但是不知道是我的鱼的模型太长还是动画混合的方式不对，总觉得有点点违和。
 
 ![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Fish.gif)
+
+## 曲面地形
+
+## Fast Subsurface Scattering
+
+https://www.alanzucconi.com/2017/08/30/fast-subsurface-scattering-2/ "Alan Zucconi")
+
+加上了用Blender烘焙的InverseAO（法线取反+烘焙AO）
