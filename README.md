@@ -30,13 +30,6 @@ Some UnityShader
 
 ![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Transparency.gif)
 
-## 冻结效果（Ice）
-
-通过法线与噪声贴图对顶点进行外扩（需要用到Vertex Texture Fetch）,
-对Fresnel效果进行调整渲染出一个大概冰的效果
-
-![](https://github.com/Tangoyzx/UnityShader/blob/master/Assets/Gifs/Ice.gif)
-
 ## 基于贴花的阴影
 
 使用CommandBuffer渲染局部ShadowMap以及使用贴花的形式把阴影渲染在屏幕上。
